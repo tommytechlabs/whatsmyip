@@ -1,0 +1,47 @@
+h1 {
+    font-family: helvetica;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+body {
+background-image:url('http://whatsmyipadd.appspot.com/stylesheets/bg.png');
+}
+
+.ip {
+
+	text-align:center;
+    font-size: 60px
+    
+}
+
+.ipadd
+{
+    font-family: helvetica;
+ color: #222;
+text-shadow: 0px 2px 3px #555;  
+    font-size: 70px;
+}
+
+#header {
+	      position:fixed;
+	     z-index:99998;
+             /*Making sure it sticks to left of window in IE7*/
+              left:0;
+             /*Change to reflect height of your header.
+             Remember to accomadate for padding!*/
+             height:25px;
+			background-color: #4a4a4a;
+			width: 100%;
+	}
+	
+	#content {
+			margin-top:25px;;
+			float:left;
+	                /*Change to reflect width of your content.
+	                Remember to accomadate for padding!*/
+	                width:900px;
+		}
